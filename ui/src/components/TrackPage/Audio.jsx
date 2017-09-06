@@ -8,6 +8,6 @@ export default class extends Component {
     src: PropTypes.string.isRequired
   };
   render() {
-    return <audio controls src={this.props.src}/>;
+    return <audio controls src={this.props.src} className="mulyrix"/>;
   }
 }

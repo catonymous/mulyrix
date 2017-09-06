@@ -1,16 +1,16 @@
-audio {
+audio.mulyrix {
 	display: block;
 	width: 100%;
 }
 
-audio::-internal-media-controls-download-button {
+audio.mulyrix::-internal-media-controls-download-button {
 	display:none;
 }
 
-audio::-webkit-media-controls-enclosure {
+audio.mulyrix::-webkit-media-controls-enclosure {
     overflow:hidden;
 }
 
-audio::-webkit-media-controls-panel {
+audio.mulyrix::-webkit-media-controls-panel {
     width: calc(100% + 30px); /* Adjust as needed */
 }
